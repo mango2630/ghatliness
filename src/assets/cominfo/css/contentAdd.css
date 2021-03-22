@@ -1,0 +1,128 @@
+
+/* body */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+blockquote, body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p {
+    font-family: "PingFang SC";
+}
+
+body {
+    line-height: 24px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+}
+
+
+.box-content{
+    margin-top: 12px;
+    padding: 0;
+    margin-bottom: 50px;
+    width: 1200px;
+}
+
+.nouser{
+    /* display: inline-block; */
+    display: block;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    /* flex-direction: column; */
+}
+
+
+/*li element*/
+.box-content ul li{
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px;
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+    /* self */
+    display: flex;
+    /* flex-direction: row; */
+    box-sizing: border-box;
+
+    width: 206px !important;
+    height: 230px;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 40px;
+    margin-left: 8px;
+}
+
+.nouserBox{
+    display: flex;
+    flex-direction: column;
+}
+
+/* img element */
+.nouserBox .img-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    margin-top: 10px;
+}
+
+.nouserBox .img-box img {
+    width: 64px;
+    height: 64px;
+    max-width: 88px;
+}
+
+.img-box{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+.nouserBox .nouserTitle h3.hv{
+    cursor: pointer;
+}
+
+.nouserBox .nouserTitle h3{
+    font-size: 16px;
+    color: #07111b;
+    height: 52px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+nouser li .nouserBox .nouserown {
+    margin-top: 10px;
+}
+
+.nouser li .nouserBox .nouserown p {
+    font-size: 12px;
+    color: #9199a1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

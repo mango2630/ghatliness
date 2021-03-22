@@ -1,0 +1,312 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.jumbotron{
+    background-image: url("../img/user_info_bg.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(35,74,102,0.65);        
+    padding: 30px;
+
+    .h1{
+        font-family: inherit;
+        color: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        font-size: 36px;
+    }
+
+    p{
+        margin-bottom: 15px;
+        font-size: 21px;
+        font-weight: 200;
+        display: block;
+        color: inherit;
+    }
+
+    #button{
+        display: inline-block;
+        font-weight: 400;
+        vertical-align: middle;
+        text-align: center;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid black;
+        white-space: nowrap;
+        user-select: none;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .table{
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        max-width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        text-align: center;
+    }
+}
+
+.h3{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.text-info{
+    color: #31708f;
+}
+
+caption{
+    display: table-caption;
+    text-align: -webkit-center;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tr .text-center p{
+    text-align: center;
+}
+
+table th{
+    height: 50px;
+}
+table tr{
+    height: 50px;
+}
+
+.btn-delete{
+    text-align: center;
+}
+
+.index-css{
+    text-align: center;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 20px;
+}
+.text-right {
+    text-align: right;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+btn-sm, .btn-group-sm > .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+button {
+    appearance: auto;
+    // -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.btn-cancel {
+    color: #fff;
+    background-color: #1C86EE;
+    border-color: #1E90FF;
+}
+
+.fade.in {
+    opacity: 1;
+}
+.modal {
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    // -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    // box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    background-clip: padding-box;
+    outline: 0;
+}
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px;
+}
+.modal-header .close {
+    margin-top: -2px;
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+div {
+    display: block;
+}
