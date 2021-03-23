@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=1024">
+    <title>学生竞赛智能管理平台</title>
+    
+    <link href="static1/css/layui.css" rel="stylesheet">
+    <link href="static1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static1/css/cli-nav.css" rel="stylesheet">
+    <link href="static1/css/iconfont2.css" rel="stylesheet">
+    <script src="static1/js/jquery-1.9.1.min.js"></script>
+    <script src="static1/js/jquery.cookie.js"></script>
+    <script src="'static1/js/bootstrap.min.js"></script>
+    <script src="static1/js/layui.js"></script>
+  </head>
+  <body>
+    <!-- 头部-->
+    <header class="header-nav">
+      <div class="container clearfix">
+        <div class="w1200">
+          <span class="l">
+            XUST<font>竞赛管理</font>
+          </span>
+        </div>
+        
+        <div class="userBox">   
+          
+          <ul class="do">
+            <li class="log"><a href="#" class="login">参加比赛</a></li>
+            <li class="log"><a href="#" class="login">获奖信息</a></li>
+            <!-- <li class="log"><a href="./adminMainPage.html" class="login">返回首页</a></li> -->
+            <li class="log"> <a href="./userMainPage.html" class="login">返回首页</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+   
+    
+  </body>
+  <link href="static1/css/layui.css" rel="stylesheet">
+  <link rel="stylesheet" href="static1/css/cli-match.css">
+  <script src="static1/js/xm-select.js"></script>
+  <script src="static/js/cli-match.js"></script>
+  
+  <p id="user" style="display:none"></p>
+  <div id="ios" class="content-2">
+    
+
+    <div style="width:100%" class="mainBox">
+      <div class="layui-container"> 
+        
+        <div class="table-box">
+          
+          <dl>
+            <dt><span>赛事级别：</span></dt>
+            <dd class="bx pt"><span class="ckbox">不限</span></dd>
+            <dd>
+              <div class="dd_info cj"><span class="ckbox">国际<i style="font-size: 17px; color: #409eff;margin-left: 5px;display:none;z-index:999;cursor: pointer;position: absolute;" class="layui-icon">&#x1006</i></span><span class="ckbox">国家级<i style="font-size: 17px; color: #409eff;margin-left: 5px;display:none;z-index:999;cursor: pointer;position: absolute;" class="layui-icon">&#x1006</i></span><span class="ckbox">省部级<i style="font-size: 17px; color: #409eff;margin-left: 5px;display:none;z-index:999;cursor: pointer;position: absolute;" class="layui-icon">&#x1006</i></span><span class="ckbox">协会级<i style="font-size: 17px; color: #409eff;margin-left: 5px;display:none;z-index:999;cursor: pointer;position: absolute;" class="layui-icon">&#x1006</i></span><span class="ckbox">校级<i style="font-size: 17px; color: #409eff;margin-left: 5px;display:none;z-index:999;cursor: pointer;position: absolute;" class="layui-icon">&#x1006</i></span>
+              </div>
+            </dd>
+          </dl>
+          
+        </div>
+        
+        <div class="box-content">
+          <ul class="nouser">
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418566565.jpeg"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('https://icpc.baylor.edu/')" class="hv">ACM/ICPC ACM国际大学生程序设计竞赛</h3>
+                  <div class="nouserown">
+                    <p>美国计算机协会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418515412.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('https://imaginecup.microsoft.com/zh-cn/asia')" class="hv">微软&quot;创新杯&quot;全球学生大赛</h3>
+                  <div class="nouserown">
+                    <p>微软（中国）有限公司</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1587117694649.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://cy.ncss.org.cn/')" class="hv">中国国际“互联网”大学生创新创业大赛</h3>
+                  <div class="nouserown">
+                    <p>教育部、中宣部、国家发改委、科技部、工信部、人社部、商务部、团中央</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1587117694649.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://cy.ncss.org.cn/')" class="hv">中国国际“互联网”大学生创新创业大赛（2020）</h3>
+                  <div class="nouserown">
+                    <p>教育部、中宣部、国家发改委、科技部、工信部、人社部、商务部、团中央</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1590993652608.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.tiaozhanbei.net/')" class="hv">“挑战杯”全国大学生课外学术科技作品竞赛</h3>
+                  <div class="nouserown">
+                    <p>共青团中央、中国科协、教育部、全国学联</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418688806.jpeg"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.mcm.edu.cn;http://www.shumo.com')" class="hv">全国大学生数学建模竞赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等教育司、中国工业与应用数学学会(CSIAM)</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1590978285101.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.gcxl.edu.cn')" class="hv">全国大学生工程训练综合能力竞赛</h3>
+                  <div class="nouserown">
+                    <p>教育部、财政部</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418645783.jpeg"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.smartcar.au.tsinghua.edu.cn/')" class="hv">全国大学生“恩智浦杯”智能汽车竞赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等教育司委托教育部高等学校自动化类专业教学指导委员会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1561023305788.jpeg"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://iche.zju.edu.cn/')" class="hv">全国大学生化工设计竞赛</h3>
+                  <div class="nouserown">
+                    <p>中国化工学会、中国化工教育协会、教育部高等学校化学工程与工艺专业教学指导分委员会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418608278.jpeg"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.ccea.zju.edu.cn/structure/')" class="hv">全国大学生结构设计竞赛</h3>
+                  <div class="nouserown">
+                    <p>国家教育部、住房和城乡建设部、中国土木工程学会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418330458.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.sun-ada.net/')" class="hv">全国大学生广告艺术大赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等学校新闻学学科教学指导委员会、中国高等教育学会广告教育专业委员会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1561023393389.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.3chuang.net/')" class="hv">全国大学生电子商务“创新、创意及创业”挑战赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等学校电子商务专业教学指导委员会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1590978875595.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://gjcxcy.bjtu.edu.cn/Index.aspx')" class="hv">全国大学生创新创业训练计划年会展示</h3>
+                  <div class="nouserown">
+                    <p>教育部高教司</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1561023565580.jpeg"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.nuedc.com.cn/')" class="hv">全国大学生电子设计竞赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等教育司、信息产业部人事司</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418124381.jpeg"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.jienengjianpai.org/')" class="hv">全国大学生节能减排社会实践与科技竞赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等教育司</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1574418008516.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://nuclt.fzu.edu.cn/')" class="hv">全国大学生化学实验邀请赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等学校化学教育研究中心</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1590990735496.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.cstam.org.cn')" class="hv">全国周培源大学生力学竞赛</h3>
+                  <div class="nouserown">
+                    <p>教育部高等学校力学教学指导委员会力学基础课程教学指导分委员会、中国力学学会和周培源基金会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="nouserBox">
+                <div class="img-box"><img src="static1/picture/1590977131278.png"></div>
+                <div class="nouserTitle">
+                  <h3 onclick="window.open('http://www.nactrans.com.cn/')" class="hv">全国大学生交通科技大赛</h3>
+                  <div class="nouserown">
+                    <p>交通工程教学指导分委员会</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="pageBox">
+          <ul class="pagination">
+            <li class="active"><span>1</span></li>
+            <li><a href="#" onclick="goPage('2')">2</a></li>
+            <li><a href="#" onclick="goPage('3')">3</a></li>
+            <li><a href="#" onclick="goPage('4')">4</a></li>
+            <li><a href="#" onclick="goPage('2')">></a></li>
+            <li><a href="#" onclick="goPage('4')">共 4 页</a></li>
+          </ul>
+        </div>
+
+        
+      </div>
+    </div>
+    
+
+</html>

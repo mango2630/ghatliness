@@ -1,0 +1,124 @@
+body{
+    background-image: url("../image/cli-regis-bg.png");
+    background-repeat: repeat-y;
+    width: 100%;
+}
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6,p { font-family: "PingFang SC";}
+header{
+    width: 100%;
+}
+.bg{
+    position: relative;
+}
+.tiger{
+    position: absolute;
+    background-image: url("../image/cli-regis-icon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 308px;
+    height: 410px;
+    right: 20%;
+    top: -229px;
+}
+.dropdown-menu>li>a{
+    padding: 3px 12px;
+}
+.container{
+    width: 960px;
+}
+.dropdown-menu {
+    min-width: 30px;
+    width: 57px;
+    background-color: #E5E5E5;
+    top: 30px;
+}
+.regis h3{
+    color: #696969;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.regis h4{
+    color: #656577;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.regis h4 a{
+    text-decoration:none;
+    color: #4c85ff;
+    cursor: pointer;
+}
+.regis h4 a:hover{
+    text-decoration:none
+}
+.mybtn {
+    background-color: #fb8944;
+    color: #ffffff;
+    height: 44px;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.bg h2{
+    color: #696969;
+    margin-top: 125px;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.layui-input-block {
+    margin-left: 0;
+    width: 338px;
+    text-align: center;
+    margin: 0 auto;
+    height: 48px;
+}
+input#code {
+    height: 48px;
+    width: 280px;
+}
+input {
+    height: 48px !important;
+    border-radius: 10px !important;
+}
+.layui-form-item {
+    margin-bottom: 34px;
+}
+canvas#canvas {
+    cursor: pointer;
+}
+input::placeholder {
+    font-size: 16px;
+    color: #c1c1cb;
+}
+input#phone {
+    padding-right: 138px;
+}
+p#teltips {
+    margin-left: 0;
+    width: 338px;
+    margin: 0 auto;
+    height: 30px;
+    text-align: left;
+}
+div#getCode {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    height: 48px;
+    line-height: 48px;
+    color: #dcdcdc;
+    font-size: 16px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+footer {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #aaafb2;
+    text-align: center;
+    margin-top: 50px;
+}
+.actcd{
+    color: #4c85ff !important;
+}

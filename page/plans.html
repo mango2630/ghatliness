@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>table</title>
+    <link rel="stylesheet" href="../myApp/plansPage/css/bootstrap.min1.css">
+	
+    <script src="../myApp/plansPage/js/jquery-1.7.2.min.js"></script>
+    <script src="../myApp/plansPage/js/bootstrap.js"></script>
+    <script src="../myApp/plansPage/js/vue.js"></script>
+    <script>
+        window.onload = function(){
+            new Vue({
+                el:'#box',
+                data:{
+                    myData:[],
+                    nowIndex:-100
+                },
+                methods:{
+                    add:function(){
+                        this.myData.push({
+                        })
+                    },
+                    del:function(n){
+                        if(n ==-2){
+                            this.myData="";
+                        }else{
+                            this.myData.splice(n,1);
+                        }
+                    }
+                }
+            })
+        }
+    </script>
+    <style>
+        /* .jumbotron{
+        
+            background-color: rgba(35,74,102,0.65);
+            
+            opacity: 0.65; 
+            z-index: -1;
+        } */
+        
+        body{
+            background-color: rgba(250, 235, 215, 0.26);
+        }
+        input{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="jumbotron" style="background-image: url(./static/image/coming-soon-bg.jpg);">
+        <h1>您好，同学！</h1>
+        <p>开始您的项目启程</p>
+        <!-- <p id="but"><a class="btn btn-primary btn-lg" href="./adminMainPage.html" role="button">返回首页</a></p> -->
+
+        <p id="but"><a class="btn btn-primary btn-lg" href="./userMainPage.html" role="button">返回首页</a></p>
+    </div>
+
+    <div class="container" id="box">
+        <table class="table table-bordered table-hover">
+            <caption class="h3 text-info">项目表</caption>
+             <tr>
+                 <th class="text-center" style="width: 10%;">任务序号</th>
+                 <th class="text-center" style="width: 20%;">任务状态</th>
+                 <th class="text-center" style="width: 40%;">任务描述</th>
+				 <th class="text-center" style="width: 10%;">截至时间</th>
+                 <th class="text-center" style="width: 10%;">负责人</th>
+				 <th class="text-center"><input type="button" value="+" class="btn btn-primary" v-on:click="add()"></th>
+             </tr>
+             <tr class="text-center" v-for="item in myData">
+				<td>{{$index+1}}</td>
+				<td>
+						
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 进行中
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 已完成
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 已检查
+                          </label>
+				</td>
+				<td>
+					<input type="text" id="weight" name="weight" style="width:90%" class="form-control" placeholder="简述任务内容">
+					
+				</td>
+				<td>
+                    <input type="week" id="unit" name="unit" style="width:90%" class="form-control" placeholder="截止时间">
+                    <!-- <input type="datetime" name="" id=""> -->
+                    
+				</td>
+				<td>
+					<input type="text" id="price" name="peice" style="width:90%" class="form-control" placeholder="输入姓名">
+				</td>
+				<td>
+					 <button class="btn btn-del btn-sm" data-toggle="modal" data-target="#layer" v-on:click="nowIndex=$index">X</button>
+				</td>
+             </tr>
+             <tr v-show="myData.length==0">
+                 <td colspan="6" class="text-center text-info">
+                     <p>暂无数据...</p>
+                 </td>
+             </tr>
+         </table>
+         <!--弹出框-->
+         <div role="dialog" class="modal fade" id="layer" data-index="{{nowIndex}}">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button class="close" data-dismiss="modal">
+                              <span>&times;</span>
+                          </button>
+                          <h4 class="modal-title">确认删除吗？</h4>
+                      </div>
+                      <div class="modal-body text-right">
+                          <button class="btn btn-cancel btn-sm" data-dismiss="modal">取消</button>
+                          <button class="btn btn-danger btn-sm" data-dismiss="modal" v-on:click="del(nowIndex)">确认</button>
+                      </div>
+                  </div>
+              </div>
+         </div>
+     </div>
+     <br>
+     
+</body>
+</html>

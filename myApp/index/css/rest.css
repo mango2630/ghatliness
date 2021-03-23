@@ -1,0 +1,51 @@
+body {
+    /*修改和去除移动端点击事件出现的背景框*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color:transparent;
+}  
+
+a:focus {
+    /*去掉FF浏览器a标签虚框*/
+    outline: none;
+}
+
+.container {
+    /*padding-right: .9375rem;*/
+    /*padding-left: .9375rem;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container:before,
+.container:after {
+    display: table;
+    content: " ";
+}
+
+.container:after {
+    clear: both;
+}
+
+@media (min-width: 34em) {
+    .container {
+        max-width: 34rem;
+    }
+}
+
+@media (min-width: 48em) {
+    .container {
+        max-width: 48rem;
+    }
+}
+
+@media (min-width: 62em) {
+    .container {
+        max-width: 62rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}    

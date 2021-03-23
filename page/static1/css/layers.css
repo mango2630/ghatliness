@@ -1,0 +1,55 @@
+body .demo-msg{
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    text-align: center;
+    line-height: 64px;
+    border-radius: 5px;
+}
+
+body .demo-confirm{
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+
+
+body .demo-confirm .layui-layer-title{
+    background-color: #fff;
+    border-bottom: none;
+    text-align: left;
+    border-radius: 25px;
+}
+
+body .demo-confirm .layui-layer-title{
+    background-color: #fff;
+    border-bottom: none;
+    text-align: left;
+    border-radius: 25px;
+}
+
+body .demo-confirm .layui-layer-btn.layui-layer-btn-{
+    height: 60px;
+    text-align: center;
+}
+
+body .demo-confirm .layui-layer-btn.layui-layer-btn- .layui-layer-btn0{
+    background: #409eff;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+body .demo-confirm .layui-layer-btn.layui-layer-btn- .layui-layer-btn1{
+    background: #FFFFFF;
+    border: 1px solid;
+    color:#BAC5CE;
+    border:none;
+}
+
+body .demo-confirm .layui-layer-content{
+    color: #5A5A5A;
+    padding: 0 35px;
+}
+
+body .demo-confirm .layui-layer-content div{
+    background-color: #F7F7F7;
+}

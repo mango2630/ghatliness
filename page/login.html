@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>系统登录界面</title>
+<!-- 引入bootstrap样式 -->
+<link href="../myApp/login/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+<!--自定义样式-->
+<link href="../myApp/login/css/style.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../myApp/login/css/style.css">
+<link rel="stylesheet" href="../../front/myApp/login/css/style.css">
+
+<!-- <style type="text/css">
+	@import url("../myApp/login/css/bootstrap.css");
+    @import url("../myApp/login/css/style.css");
+    @import url("../myApp/login/css/style.min.css");
+</style> -->
+
+</head>
+<body size-sensor-id="1" style="position: relative;">
+
+    <div class="content">
+        <div class="form sign-in" class="login">
+            <h2>欢迎回来</h2>
+            <label>
+                <span>账号</span>
+                <input type="username" />
+                <!-- <input type="text" name="textfield" id="username"> -->
+            </label>
+            <label>
+                <span>密码</span>
+                <input type="password" />
+                <!-- <input type="password" name="textfield2" id="password">
+                 -->
+            </label>
+            <p class="forgot-pass"><a href="javascript:">忘记密码？</a></p>
+            <button type="button" class="submit"><a href="./userMainPage.html">登录</a></button>
+
+            <!-- <button type="submit" class="submit" name="submit" οnclick="clickLogin()">登录</button> -->
+
+            <button type="button" class="fb-btn">注册</button>
+        </div>
+
+        
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+                    <!-- user-up -->
+                    <h2>西安科技大学 </h2>
+                    <p>立即登录，获取大量竞赛信息！</p>
+                </div>
+                <div class="img__text m--in">
+                    <!-- manage-in -->
+                    <h2>西安科技大学 </h2>
+                    <p>立即登录，管理大量竞赛信息！</p>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">管理员登陆</span>
+                    <span class="m--in">用户登录</span>
+                </div>
+            </div>
+            
+            <div class="form sign-up">
+                <h2>欢迎登陆</h2>
+                <label>
+                    <span>账号</span>
+                    <input type="text" />
+                </label>
+
+                <label>
+                    <span>密码</span>
+                    <input type="password" />
+                </label>
+                <p class="forgot-pass"><a href="javascript:">忘记密码？</a></p>
+                <button type="button" class="submit"><a href="./adminMainPage.html">登录</a></button>
+                <button type="button" class="fb-btn">注册</button>
+            </div>
+        </div>
+    </div>
+
+<!-- 引入jQuery和bootstrap的js -->
+<script src="../myApp/login/js/jQuery.js"></script>
+<script src="../myApp/login/js/bootstrap.js"></script>
+<script src="../myApp/login/js/md5.js"></script>
+<script src="../myApp/login/js/script.js"></script>
+
+<!-- 点线粒子插件 -->
+<script color="255,0,255" opacity="0.8" zindex="9999" count="99" src="../myApp/login/js/canvas-nest.js"></script>
+<canvas width="1280" height="641" style="display: block; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: 9999; opacity: 0.8;"></canvas>
+
+<script>
+    
+</script>
+
+
+</body>
+</html>

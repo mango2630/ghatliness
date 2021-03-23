@@ -1,0 +1,109 @@
+body .demo-class .layui-layer-title{
+    background: #fff;
+    color: #253B55;
+    border: none;
+    height: 50px;
+    line-height: 60px;
+    padding-left: 30px;
+    border-radius: 8px !important;
+}
+body .demo-class1 .layui-layer-title{
+    background: #fff;
+    color: #253B55;
+    border: none;
+    height: 50px;
+    line-height: 60px;
+    padding-left: 30px;
+    border-radius: 8px !important;
+}
+body .demo-class{border-radius:10px;}
+body .demo-class .layui-layer-title{border-radius:10px 10px 0 0;}
+body .demo-class .layui-layer-btn{
+    background-color: #fff;
+    height: 65px;
+    text-align: center;
+    border-radius: 8px !important;
+}
+body .demo-class .layui-layer-btn a{
+    background: #409eff;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+body .demo-class .layui-layer-btn .layui-layer-btn1{
+    background:#FFFFFF;
+}
+body .demo-class .layui-layer-btn .layui-layer-btn1 {
+    background: #FFFFFF;
+    border: 1px solid;
+    color:#BAC5CE;
+}
+body .demo-class1{border-radius:10px;}
+body .demo-class1 .layui-layer-title{border-radius:10px 10px 0 0;}
+body .demo-class1 .layui-layer-btn{
+    background-color: #fff;
+    height: 65px;
+    text-align: center;
+    border-radius: 8px !important;
+}
+body .demo-class1 .layui-layer-btn a{
+    background: #409eff;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+body .demo-class1 .layui-layer-btn .layui-layer-btn1{
+    background:#FFFFFF;
+}
+body .demo-class1 .layui-layer-btn .layui-layer-btn1 {
+    background: #FFFFFF;
+    border: 1px solid;
+    color:#BAC5CE;
+}
+input.layui-input {
+    height: 30px;
+    border-radius: 5px;
+}
+.layui-input-block {
+    padding-top: 5px;
+    margin-left: 108px;
+}
+body .demo-class .layui-layer-content {
+    overflow: visible;
+}
+body .demo-class1 .layui-layer-content {
+    overflow: visible;
+}
+.layui-layer-content{
+    max-height: 450px;
+}
+.layui-input-inline {
+    padding-top: 5px;
+}
+xm-select {
+    min-height: 30px !important;
+    line-height: 30px !important;
+}
+xm-select .label-content {
+    line-height: 23px !important;
+}
+.layui-layer-content {
+    padding: 0 25px;
+}
+.layui-layer-content form {
+    border-top: 1px solid #dcdcdc;
+    padding-top: 15px;
+}
+.layui-form-item {
+    margin-bottom: 5px !important;
+}
+.layui-layer-setwin {
+    top: 20px !important;
+}
+::-webkit-input-placeholder {
+    color: #999999;
+}
+.layui-form-radio.layui-form-radio {
+    margin-top: 0;
+}
+
+
+

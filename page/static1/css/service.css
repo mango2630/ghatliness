@@ -1,0 +1,18 @@
+h3{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    padding: 25px;
+}
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6,p { font-family: "SimSun ";}
+p{
+    font-family: 宋体;
+    font-size: 16px;
+}
+span{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}

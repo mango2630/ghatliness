@@ -1,0 +1,338 @@
+html,body{
+  height: 100%;
+  min-width:1024px;
+  max-width:100%;
+}
+
+body{
+  padding-top: 80px !IMPORTANT;
+}
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6,p { font-family: "PingFang SC";}
+.header-nav {
+  width: 100%;
+  height: 80px;
+  /* background-color: #ffffff; */
+  background-color: #62ab00;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+}
+.goBd:hover{
+  color: #fb8944;
+}
+a{
+  text-decoration: none;
+}
+.container.clearfix{
+  position: relative;
+  display: flex;
+  width: 82%;
+  max-width: 1170px;
+}
+.pageContent {
+  height: 89.5%;
+}
+.us {
+  position: relative;
+  height: 80px;
+  line-height: 80px;
+}
+/*-----------*/
+.icon-nav {
+  background-image: url(../image/cli-nav-logo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 60px;
+  float: left;
+  margin-top: 13px;
+  position: absolute;
+}
+.nav-list {
+  height: 80px;
+  font-size: 18px;
+  margin-bottom: 0px;
+  flex: 3;
+}
+.nav-list li{
+  line-height: 50px;
+  font-size: 18px;
+  color: #272727;
+  padding: 0 0px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 95px;
+  float: left;
+}
+.nav-list li a{
+  line-height: 80px;
+  font-size: 15px;
+  color: #272727;
+  padding: 0 30px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+}
+.nav-list li a.act,.nav-list li a:hover{
+  font-weight: 700;
+  color: #fb8944;
+  text-decoration: none;
+  background-color: transparent;
+  width: 99px;
+}
+
+.nav-list li a.act:after{
+  width: 40%;
+  -webkit-transition: .2s;
+  transition: .2s;
+  background-color: #fb8944;
+}
+.nav-list a:after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 47%;
+  width: 0;
+  height: 2px;
+  background-color: #272727;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.nav-list a.act, .nav-list a:hover {
+  color:#fb8944;
+}
+
+.header-nav .container .do {
+  height: 80px;
+  width: 200px;
+  margin-bottom: 0;
+  display: flex;
+  min-width: 200px;
+}
+.w1200 {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 16px;
+}
+.w1200 .l {
+  float: left;
+  font-size: 22px;
+}
+.w1200 {
+  /* background: #62ab00; */
+  /* height: 50px; */
+  line-height: 70px;
+  color: #fff;
+}
+.w1200 .l font {
+  font-size: 22px;
+  border-left: 1px solid #fff;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.do li {
+  line-height: 80px;
+  width: 90px;
+  height: 80px;
+  margin-bottom: 0;
+  text-align: center;
+  margin-right: 15px;
+  float: left;
+}
+.regis {
+  background-color: #fb8944;
+}
+.register{
+  color: #eee;
+  width: 90px;
+}
+.register:hover,.register:focus{
+  color:#272727;
+  text-decoration: none;
+}
+.login{
+  color: #fff;
+  display: inline-block;
+  width: 67px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.login:hover,.login:focus{
+  color:#fff;
+  text-decoration: none;
+  /* color: #fb8944; */
+
+}
+
+/*content-2*/
+.header-2 {
+  width: 100%;
+  height: 284px;
+  /* background-image: url(../image/title-3.jpg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 50px;
+}
+ul li{
+  margin-bottom: 10px;
+}
+.outIcon.pt {
+  cursor: pointer;
+  text-decoration: none;
+  color: #999;
+}
+.pointt {
+  position: fixed;
+  width: 80px;
+  height: 290px;
+  align-items: center;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  right: 16px;
+  bottom: 55px;
+  justify-content: space-between;
+}
+.pointt a {
+  width: 80px;
+  height: 80px;
+  display: block;
+  background-color: #A5A5A5;
+  color: #fff;
+  text-align: center;
+  /* padding-top: 6px; */
+  border-radius: 5px;
+  position: relative;
+  font-family: "PingFang SC";
+}
+.pointt a:focus{
+  text-decoration: none;
+}
+.pointt a:hover{
+  text-decoration: none;
+  background-color: #488feb;
+}
+.pointt a:hover i{
+  color: #ffffff;
+}
+.pointt a i {
+  font-style: inherit;
+  font-size: 16px;
+  line-height: 23px;
+  position: absolute;
+  width: 40px;
+  left: 5px;
+  top: 2px;
+}
+.titleBox {
+  flex: 1;
+}
+
+.userBox {
+  flex: 1;
+}
+.pointt a span {
+  font-size: 26px;
+}
+.pointt a.help i{
+  position: absolute;
+  left: 20px !important;
+  top: 18px !important;
+}
+.pointt a.qq i{
+  position: absolute;
+  left: 20px !important;
+  top: 18px !important;
+}
+.pointt a.help,.pointt a.qq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+}
+.userBox{display: flex;position: relative;justify-content: flex-end;align-items: center;}
+.userBox p {
+  line-height: 60px;
+  font-size: 15px;
+  text-align: right;
+  color: #717a84;
+  margin-right: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.userBox .secAvater {
+  width: 39px;
+  height: 32px;
+  border-radius: 100%;
+  overflow: hidden;
+  cursor: pointer;
+} 
+.userBox .secAvater img {
+width: 32px;
+height: 32px;
+}
+.userBox .opts {
+position: absolute;
+right: 0;
+display: none;
+top: 100%;
+z-index: 1000;
+width: 138px;
+background-color: #fff;
+box-shadow: 0 8px 16px 0 rgba(7,17,27,0.2);
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+box-sizing: border-box;
+z-index: 999;
+}
+.userBox .opts .grsz {
+font-size: 16px;
+padding: 12px;
+border-bottom: 1px solid #dcdcdc;
+cursor: pointer;
+}
+.userBox .opts a {
+  color:#333;
+}
+.userBox .opts a:hover {
+  text-decoration: none;
+}
+.userBox .opts .grsz span {
+margin-right: 5px;
+}
+.userBox .opts .aqtc {
+font-size: 16px;
+padding: 12px;
+cursor: pointer;
+}
+.uubox {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .header-nav .container .do{
+      position: absolute;
+      right: 0;
+  }
+  
+}
+
+

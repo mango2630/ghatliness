@@ -1,0 +1,1015 @@
+/*content-2*/
+@import "layer.css";
+body,button, input, select, textarea,h1 ,h2, h3, h4, h5, h6,p { font-family: "PingFang SC";}
+ul li{
+    margin-bottom: 0;
+}
+body,html{
+    background-color: #F4F5F6;
+}
+body .layui-layer-demo{border-radius: 5px;}
+body .layui-layer-demo .layui-layer-title{background:#fff;border-radius: 10px;}
+body .demo-class .layui-layer-btn{border-top:1px solid #E9E7E7}
+body .demo-class .layui-layer-btn a{background:#333;}
+body .demo-class .layui-layer-btn .layui-layer-btn1{background:#999;}
+
+body .demo-class1 .layui-layer-title{background:#374962; color:#fff; border: none;}
+body .demo-class1 .layui-layer-btn{border-top:1px solid #E9E7E7}
+body .demo-class1 .layui-layer-btn a{background:#333;}
+body .demo-class1 .layui-layer-btn .layui-layer-btn1{background:#999;}
+
+body .demo1 .layui-layer-title{background:#fff; color:#fff; border: none;}
+body .demo1 .layui-layer-btn{border-top:1px solid #E9E7E7}
+body .demo1 .layui-layer-btn a{background:#333;}
+body .demo1 .layui-layer-btn .layui-layer-btn1{background:#999;}
+
+body .demo5 .layui-layer-title{background:#374962; color:#fff; border: none;height: 40px; line-height: 40px;  padding-left: 30px;}
+body .demo5 .layui-layer-btn{border-top:1px solid #E9E7E7;background-color: #EDF0F5;height: 57px;}
+body .demo5 .layui-layer-btn a{background: #409eff;margin-right: 10px;border-color: transparent;}
+body .demo5 .layui-layer-btn .layui-layer-btn1{background: #fff;color: black;}
+body .demo5 .layui-layer-content {
+    background: #fff;
+    padding: 12px 30px 5px 10px;
+    max-height: 600px;
+    overflow: visible;
+}
+body .demo5 .layui-layer-content::-webkit-scrollbar { display: none; }
+.demo5 .layui-layer-wrap label.layui-form-label {
+    width: 108px;
+}
+.demo1 .layui-layer-content {
+    background: #fff;
+}
+ul.pagination {
+}
+button.tj.layui-btn.layui-btn-wram.layui-btn-sm {
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+}
+div#document_name {
+    line-height: 32px;
+    position: absolute;
+    width: 208px;
+    top: 3px;
+    right: -224px;
+}
+.demo5 input.layui-input {margin-top: 1px;margin-left: 1px;}
+.demo5 .layui-input-block {
+    padding-top: 2px;
+}
+.tbmd {
+    padding-left: 17px;
+}
+.title-right .wsbm {
+    width: 110px;
+    background-color: #0051b8;
+    height: 32px;
+    line-height: 32px;
+}
+
+.mhcx span.glyphicon.glyphicon-search {
+    border-right: none !important;
+    font-size: 17px;
+    color: #ACAAAA;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+}
+p.dji {
+    color: #999999;
+    float: left;
+    font-size: 14px;
+    width: 95px;
+    margin-bottom: 0;
+}
+.dd1 {clear: both;margin-top: 3px;position: relative;height: 59px;}
+
+.dd2 {height: 20px;margin-top: 2px;}
+p.mxzy {
+    color: #999999;
+    float: left;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+.layui-layer-demo .layui-layer-content {
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+a.uplod {
+    color: #337ab7;
+    display: block;
+    text-align: right;
+    font-size: 15px;
+}
+.cmts {
+    position: absolute;
+    right: 0px;
+    top: -3px;
+}
+.cmts .cmt{
+    cursor: pointer;
+    margin-right: 0px;
+    position: relative;
+}
+.right-box{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.right-box .zt {
+    width: 60px;
+    height: 60px;
+}
+.right-box .ybm{
+    background-image: url(../image/ztYBM.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.right-box .bmjz{
+    background-image: url(../image/ztBMJZ.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.right-box .wks{
+    background-image: url(../image/ztWKS.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.right-box .yjs{
+    background-image: url(../image/ztYJS.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.right-box .zzbm{
+    background-image: url(../image/ztZZBM.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+button.ckxm.layui-btn.layui-btn-wram.layui-btn-sm {
+    background-color: #008080;
+    width: 110px;
+    height: 32px;
+}
+button.zcbm.layui-btn.layui-btn-wram.layui-btn-sm {
+    background-color: #005EB8;
+    width: 110px;
+    height: 32px;
+}
+button.delu.layui-btn.layui-btn-wram.layui-btn-sm {
+    background-color: #154286;
+    width: 110px;
+    height: 32px;
+}
+strong.high {
+    color: red;
+}
+.dd_info span.rado {
+    padding: 0 8px 0 8px !important;
+}
+p.jshu {
+    color: #999999;
+    float: left;
+    font-size: 14px;
+    width: 95px;
+}
+button#upload {
+    margin-top: 4px;
+}
+dd.layui-select-tips.layui-this {
+    width: 100%;
+}
+
+.demo5 dd {
+    width: 100%;
+}
+p.csfs {
+    color: #999999;
+    float: left;
+    font-size: 14px;
+    margin-left: 50px;
+}
+dt {
+    display: inline-block;
+}
+dd {
+    display: inline-block;
+}
+dt span {
+    font-size: 16px;
+    color: #111111;
+    font-weight: 500;
+}
+.title-right p.layui-col-sm3 {
+    width: 100px;
+    display: inline-block;
+    margin-left: 105px;
+    position: relative;
+    color: #fb8944;
+    line-height: 25px;
+}
+.layui-btn-primary:hover {
+    border-color: #fb8944;
+}
+.jz {
+    text-align: center;
+    margin: 0 auto;
+}
+.carousel-control:focus, .carousel-control:hover {
+    opacity: 1;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.title-right h3 {
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    margin-top: 0;
+    width: 72%;
+    float: left;
+    position: relative;
+    line-height: 23px;
+    color: #111111;
+    height: 45px;
+    -webkit-line-clamp:2;
+    word-break:break-all;
+    display:-webkit-box;
+    margin-bottom: 0px;
+    -webkit-box-orient:vertical;
+}
+.pagination-sm>li:first-child>a, .pagination-sm>li:first-child>span {
+    border-top-left-radius: 18%;
+    border-bottom-left-radius: 18%;
+}
+.pagination li a {
+    color: #686868;
+}
+.cmt-1{
+    background-image: url("../image/cmt-1.png");
+    background-size: 100%;
+    width: 38px;
+    height: 38px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.cmt-6{
+    background-image: url("../image/cmt-6.png");
+    background-size: 100%;
+    width: 38px;
+    height: 38px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.cmt-2{
+    background-image: url("../image/cmt-2.png");
+    background-size: 100%;
+    width: 39px;
+    height: 38px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.cmt-3{
+    background-image: url("../image/cmt-3.png");
+    background-size: 100%;
+    width: 38px;
+    height: 38px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.cmt-4{
+    background-image: url("../image/cmt-4.png");
+    background-size: 100%;
+    width: 39px;
+    height: 38px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.content-2 ul li img {max-width: 50px;height: auto;}
+.layui-btn-danger {
+    background-color: #fb8944;
+    color: #eee;
+}
+
+.layui-btn-container{
+    vertical-align: middle;
+    font-size: 0;
+    text-align: center;
+    margin: 26px auto;
+}
+.layui-btn-container .layui-btn {
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+ul.pagination.pagination-sm {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: relative;
+}
+a.ds.layui-btn.layui-btn-wram.layui-btn-sm.layui-btn-disabled {
+    background-color: #a0a0a0;
+    color: #fff;
+    width: 110px;
+    height: 32px;
+    border: none;
+    line-height: 32px;
+}
+a.jr.layui-btn.layui-btn-wram.layui-btn-sm {
+    width: 110px;
+    background-color: #409eff;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+a.tj.layui-btn.layui-btn-wram.layui-btn-sm {
+    width: 110px;
+    background-color: #00a3a1;
+    height: 32px;
+    line-height: 32px;
+}
+a.sbcs.layui-btn.layui-btn-wram.layui-btn-sm{
+    width: 110px;
+    background-color: #483698;
+    height: 32px;
+    line-height: 32px;
+}
+button.jr.layui-btn.layui-btn-wram.layui-btn-sm {
+    width: 110px;
+    background-color: #409eff;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+p.page {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    left: 405px;
+    top: 6px;
+}
+p.own {
+    font-size: 12px;
+    color: #999999;
+    height: 19px;
+    word-break:break-all;
+    display: inline-block;
+    line-height: 18px;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.owm-box{
+    width: 100%;
+    margin-bottom: 0;
+}
+.org-box{
+    width: 100%;
+    position: relative;
+    line-height: 18px;
+}
+span.org {
+    font-size: 16px;
+    color: #353535;
+    margin-bottom: 8px;
+    width: 55%;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.table-box {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 5px 16px 1px 16px;
+    position: relative;
+}
+dd.bx {
+    background-color: #62a3f0;
+    color: #eee;
+}
+form#xsms {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+dd.bh {
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    width: 64px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 40px;
+}
+dd.pt{
+    width: 64px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: 32px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.dd_info span {
+    margin-right: 36px;
+    display: inline-block;
+    padding: 0 23px 0 8px;
+    line-height: 24px;
+    cursor: pointer;
+    position: relative;
+}
+.dd_info span:hover {
+    color: #0091da;
+    margin-right: 36px;
+    display: inline-block;
+    padding: 0 23px 0 8px;
+    line-height: 24px;
+    cursor: pointer;
+    position: relative;
+}
+.dd_info span.active {
+    border: 1px solid #62a3f0;
+    line-height: 24px;
+    color: #62a3f0;
+}
+
+dl {
+    margin-bottom: 6px;
+    position: relative;
+}
+button.layui-btn.layui-btn-danger.layui-btn-sm {
+    position: absolute;
+    right: 0;
+    height: 24px;
+    width: 56px;
+    line-height: 24px;
+    border-radius: 0;
+}
+.sign-box {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: -15px;
+}
+button.layui-btn.layui-btn-danger.btn-xq.layui-btn-sm {
+    position: absolute;
+    right: 20px;
+    top: -3px;
+    background-color: white;
+    color: #fb8944;
+}
+.xxbox {height: 18px;position: relative;}
+.title-right .bm {
+    width: 110px;
+    background-color: #488feb;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 6px;
+}
+p.ct {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    left: 340px;
+    top: 6px;
+}
+.demo-class .layui-layer-content{
+    background: -webkit-linear-gradient( #064283, #023167); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#064283, #023167); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#064283, #023167); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#064283, #023167); /* 标准的语法（必须放在最后） */
+}
+.md-head{
+    width: 416px;
+    height: 102px;
+    background-image: url("../image/cli-mckeck.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 0px;
+}
+p.xdate {
+    color: #333333;
+    font-size: 14px;
+}
+.bx span {
+    cursor: pointer;
+}
+.img-box{
+
+    display: table-cell;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    overflow: hidden;
+
+    width: 64px;
+
+    height: 64px;
+
+    float: left;
+}
+.foot h3 {
+    float: right;
+    margin-right: 20px;
+    margin-top: 46px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.layui-btn-warm {
+    background-color: #F59948;
+    display: inline-block;
+}
+.cmt-5 {
+    background-image: url(../image/cmt-5.png);
+    background-size: 100%;
+    width: 38px;
+    height: 38px;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.foot h3 span {
+    color: #eee !IMPORTANT;
+}
+.box-content {
+    margin-top: 12px;
+    padding: 0 0;
+    margin-bottom: 50px;
+}
+.md-box h2 {
+    color: #FFC933;
+    padding-left: 81px;
+    margin-top: 27px;
+    margin-bottom: 13px;
+}
+.md-box h3 {
+    padding-left: 81px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+.md-box h3 span {
+    color: #ffc536;
+}
+button.ckjg.layui-btn.layui-btn-wram.layui-btn-sm {
+    width: 110px;
+    background-color: #409eff;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+span.jieshu {
+    position: absolute;
+    top: -67px;
+    right: 45px;
+    font-size: 15px;
+    color: #A7A7A7;
+    border: 1px solid #FB8944;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+.rtspan span {
+    margin-left: 28px;
+    color: #A7A7A7;
+}
+.dd1 .dimg {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 36px;
+    height: 15px;
+    float: left;
+    margin-top: 4px;
+}
+.libox {
+    border: 3px solid #DCDCDC;
+    padding: 8px;
+}
+.box-content ul li {
+    background-color: #fff;
+    padding: 5px;
+}
+.layui-input {
+    border-radius: 7px;
+    height: 35px;
+}
+.dd1 p.rtspan {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    margin-bottom: 0;
+}
+.dd1 p {
+    margin-bottom: 0;
+    height: 18px;
+}
+.layui-form-item {
+    margin-bottom: 0;
+    text-align: left;
+}
+.layui-form-item .layui-inline{
+    margin-bottom: 0;
+}
+.owm-box p.own {
+    text-align: left;
+    width: 82%;
+    margin-bottom: 0;
+}
+.saveBtn {
+    text-align: right;
+}
+.dip p {line-height: 20px;color: #333333;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.xx{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dashed #dddddd;
+    position: relative;
+}
+p.uid {
+    display: none;
+    position: absolute;
+}
+p.moid{
+    display: none;
+    position: absolute;
+}
+a.layui-layer-ico.layui-layer-close.layui-layer-close2 {
+    top: -15px !important;
+    right: 0 !important;
+}
+p.mid {
+    display: none;
+    position: absolute;
+}
+h3.title-head {
+    text-align: center;
+    padding-left: 0px;
+    color: black;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.md-box {padding-top: 69px;margin-bottom: 38px;}
+.demo1 .layui-layer-content .cont-1 {
+    width: 253px;
+    position: absolute;
+    top: 132px;
+    right: 100px;
+}
+.cont-1 p {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+}
+div#btn-bmsj {
+    position: relative;
+}
+
+.cont-1 h3 {
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 22px;
+}
+body .demo5 .layui-layer-btn .layui-layer-btn2 {
+    background: #FFFFFF;
+}
+.cont-1 h3 span {
+    display: inline-flex;
+    width: 160px;
+    display: -webkit-inline-flex;
+    line-height: 24px;
+}
+.md-box table {
+}
+table thead tr th {
+    text-align: center !important;
+}
+.layui-btn-normal {
+    background-color: #409eff;
+}
+img#preview {
+    width: 90px;
+    height: 90px;
+}
+.dd1 p.more {
+    position: absolute;
+    right: 2px;
+    top: 85px;
+    color: #fb8944;
+}
+.demo5 .layui-input-inline {
+    margin-left: 2px;
+    position: relative;
+}
+.layui-table {
+    background-color: transparent;
+}
+.mhcc {
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    right: 78px;
+    /* bottom: 18px; */
+    bottom: 8px;
+}
+.mhcc .layui-form-select dl dd {
+    display: block;
+}
+.layui-btn-bj {
+    background-color: #005eb8;
+    color: #fff;
+    line-height: 19px;
+    height: 20px;
+    margin-top: -3px;
+}
+.mainBox {
+    position: relative;
+}
+.li{
+    position: absolute !important;
+    right: 0;
+    z-index: 999;
+    top:0;
+    height: 129px;
+    cursor: pointer;
+    right: 15px;
+}
+.layui-btn-sc {
+    background-color: #154286;
+    color: #fff;
+    line-height: 19px;
+    height: 20px;
+    margin-top: -3px;
+}
+.jshz {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 63px;
+    height: 80px;
+    position: absolute;
+    right: 29px;
+    top: 3px;
+    cursor: pointer;
+}
+.mhcc .layui-form-select dl {
+    width: 100%;
+}
+.tsxx {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 8px;
+    padding-left: 17px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.xdate span {
+    font-weight: bold;
+}
+.xuxian-box {
+    padding-left: 17px;
+}
+.dip p span {
+    font-weight: bold;
+}
+.cmts .cmt p {
+    color: #A7A7A7;
+    position: absolute;
+    top: 30px;
+    font-size: 2px;
+    left: -2px;
+    display: inline-block;
+    width: 30px;
+}
+.djl {
+    text-align: left;
+}
+.list-unstyled .layui-col-sm6 {
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+button.bm.layui-btn.layui-btn-wram.layui-btn-sm.layui-btn-disabled {
+    background-color: #cccccc;
+    color: #fff;
+}
+.title-right h3.hv {
+    cursor: pointer;
+}
+.title-right h3.hv:hover{
+    color: #409eff;
+}
+.xuxian {
+    width: 100%;
+    height: 1px;
+    border-top: 2px dashed #fb8944;
+    margin-bottom: 10px;
+}
+.mhcx input#keyWord {
+    height: 32px;
+}
+table thead tr {
+    background-color: transparent !important;
+}
+.li .item {
+    text-align: center;
+    background-color: #409eff;
+    color: #fff;
+    padding: 5px 8px 24px 8px;
+}
+.layui-btn-disabled {
+    border: 1px solid #e6e6e6;
+    background-color: #FBFBFB;
+    color: #C9C9C9;
+    cursor: not-allowed;
+    opacity: 1;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+}
+.info {width: 384px;text-align: center;margin: 0 auto;border: 8px solid #FFC536;background-color: #FFF7E2;border-radius: 4px;padding: 20px 10px;}
+.titleBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+#tong .layui-btn-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0;
+}
+#tong button#btn-xq {
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: #0091da;
+}
+#tong button#btn-edit {
+    background-color: #005eb8;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+#tong button#btn-del {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    background-color: #154286;
+}
+#tong button#add {
+    background-color: #FB8944;
+    width: 75px;
+    border-radius: 4px;
+    font-size: 15px;
+    height: 36px;
+}
+.carousel {
+    margin-bottom: 12px;
+}
+.layui-layer-content {
+    padding: 10px;
+}
+#tong .layui-table td, .layui-table th {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.footer {
+    width: 100%;
+    background-color: #2B2B2B;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+.footer p {
+    color: #808080;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    z-index: 999;
+}
+/* .pointt a {
+    padding-top: 10px;
+} */
+/* .pointt a.help {
+    padding-top: 21px !important;
+}
+.pointt a.qq {
+    padding-top: 21px !important;
+} */
+
+.nouser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.box-content ul.nouser li {
+    width: 206px;
+    height: 230px;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 40px;
+    margin-left: 8px;
+}
+
+.nouserBox .img-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+}
+
+.nouserBox .nouserTitle h3 {
+    font-size: 16px;
+    color: #07111b;
+    height: 52px;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.nouser li .nouserBox .nouserown p {
+    font-size: 12px;
+    color: #9199a1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.pageBox .pagination .active span {
+    z-index: -1;
+}
+.nouserBox .nouserTitle h3.hv {
+    cursor: pointer;
+}
+.nouserBox .nouserTitle h3.hv:hover {
+    color: #409eff;
+}
+.nouser li .nouserBox .nouserown {
+    margin-top: 10px;
+}
+.nouserBox {
+    display: flex;
+    flex-direction: column;
+}
+.nouserBox .img-box img {
+    width: 64px;
+    height: 64px;
+    max-width: 88px;
+}
+.pageBox {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.pagination li {
+    display: inline-block;
+}
+.pagination li.active a {
+    margin-right: 5px;
+    border-radius: 18%;
+}
+@media (min-width: 1200px){
+    .layui-container {
+        width: 1320px;
+    }
+}
